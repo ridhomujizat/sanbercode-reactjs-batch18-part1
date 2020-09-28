@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Ridho
+2. Email: ridhomujizat@gmail.com    
+3. Sistem Operasi yang digunakan: Ubuntu
+4. Akun Gitlab: https://github.com/ridhomujizat
+5. Akun Telegram: @ridhomujizat
