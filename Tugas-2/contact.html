@@ -12,20 +12,32 @@
         <p><b>Nomor Telpon:</b>XXXX-XXXX-XXXX</p>
         <p><b>email:</b>email@contoh.com</p>
         <h1>Kirimkan Pesan</h1>
-        <form action="">
-            <Label><b>Nama</b></Label>
-            <input type="text"><br>
-            <label><b>Email</b></label>
-            <input type="text"><br>
-            <label ><b>Jenis Kelamin</b></label>
-            <input type="radio" id="Laki-laki" name="gender" value="Laki-laki">
-            <label for="Laki-laki">Laki-laki</label>
-            <input type="radio" id="Perempuan" name="gender" value="Perempuan">
-            <label for="Perempuan">Perempuan</label><br>
-            <label ><b>Pesan Anda</b></label>
-            <textarea name="" id="" cols="30" rows="3"></textarea><br>
-            <button>submit</button>
-        </form>
+        <table>
+          <tr>
+            <th><b>Nama</b></th>
+            <th><input type="text" name="Nama"></th>
+          </tr>
+          <tr>
+            <th><b>Email</b></th>
+            <th><input type="text" name="Email"></th>
+          </tr>
+          <tr>
+            <th><b>Jenis Kelamin</b></th>
+            <th>
+              <input type="radio" id="Laki-laki" name="gender" value="Laki-laki">
+              <span><label for="Laki-laki">Laki-laki</label></span><br>
+              <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+              <label for="Perempuan">Perempuan</label>
+            </th>
+          </tr>
+          <tr>
+            <th><b>Pesan Anda</b></th>
+            <th><textarea name="" id="" cols="30" rows="3"></textarea></th>
+          </tr>
+          <tr>
+            <th><button type="submit">submit</button></th>
+          </tr>
+        </table>
     </div>
     <a href="index.html" class="back">Kembali Ke Index</a>
     </section>
