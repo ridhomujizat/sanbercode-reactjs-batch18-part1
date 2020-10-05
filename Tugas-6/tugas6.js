@@ -18,19 +18,15 @@ keliling lingkaran jari-jari 4 adalah 25.12
 */
 
 //Soal 2
-const tambahKata = (
-  firstWord,
-  secondWord,
-  thirdWord,
-  fourthWord,
-  fifthWord
-) => {
-  let kalimat = `${firstWord} ${secondWord} ${thirdWord} ${fourthWord} ${fifthWord}`;
-  return console.log(kalimat);
+const tambahKata = (kata) => {
+  return kata;
 };
 
-tambahKata("saya", "adalah", "seorang", "frontend", "developer");
+let kalimat = `${tambahKata("saya")} ${tambahKata("adalah")} ${tambahKata(
+  "seorang"
+)} ${tambahKata("frontend")} ${tambahKata("developer")} `;
 
+console.log(kalimat);
 /*Jawaban Soal 2
 saya adalah seorang frontend developer
 */
